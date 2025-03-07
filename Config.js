@@ -1,6 +1,6 @@
 // Define as dimensões da tela do jogo
-let larguraDaTela = 800; // Largura da tela em pixels
-let alturaDaTela = 600; // Altura da tela em pixels
+let larguraDaTela = 1200; // Largura da tela em pixels
+let alturaDaTela = 700; // Altura da tela em pixels
 
 // Configuração do jogo
 const config = {
