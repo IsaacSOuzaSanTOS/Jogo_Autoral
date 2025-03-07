@@ -18,7 +18,7 @@ const config = {
   },
 
   // Define as cenas que compõem o jogo
-  scene: [Menu, Jogo], // O jogo começa na cena "Menu" e pode transitar para "Jogo"
+  scene: [Menu, Jogo, Fim], // O jogo começa na cena "Menu" e pode transitar para "Jogo"
 };
 
 // Criação do jogo com as configurações definidas
