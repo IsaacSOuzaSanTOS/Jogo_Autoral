@@ -8,8 +8,8 @@ class Menu extends Phaser.Scene {
     this.bg = this.add.rectangle(//adiciona um retângulo
       larguraDaTela / 2,//posição eixo y
       alturaDaTela / 2,//posição eixo y
-      800,//comprimento do retângulo
-      600,//altura do retângulo
+      1200,//comprimento do retângulo
+      700,//altura do retângulo
       0x3498db//cor azul
     );
 
