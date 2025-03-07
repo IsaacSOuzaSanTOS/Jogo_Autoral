@@ -104,5 +104,12 @@ class Jogo extends Phaser.Scene {
       this.star.destroy();
       break;// O "break" evita um loop infinito
     }
+
+    if(this.score.length === 10){//Condicional para o tamanho da lista igual a 10
+      this.time.delayedCall(2000, () => {//Cria um delay de 2 segundos para a função
+        this.scene.start('Fim')//Inicia a cena "Fim"
+        this.scene.stop('Jogo')//Finaliza a cena "Jogo"
+    }, [], this);//Lista de argumentos que podem ser passados para a função de callback
+    //"this" é o contexto no qual a função será executada
   }
 }
